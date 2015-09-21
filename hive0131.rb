@@ -1,7 +1,7 @@
 class Hive0131 < Formula
   homepage "https://hive.apache.org"
   url "https://archive.apache.org/dist/hive/hive-0.13.1/apache-hive-0.13.1-bin.tar.gz"
-  md5 "8c9fc9391375a67832db39ea3deaaa02"
+  sha256 "8c9fc9391375a67832db39ea3deaaa02"
 
   # depends_on "hadoop"
   depends_on :java
