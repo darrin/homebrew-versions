@@ -3,7 +3,7 @@ class Hive0131 < Formula
   url "https://archive.apache.org/dist/hive/hive-0.13.1/apache-hive-0.13.1-bin.tar.gz"
   sha256 "7085f5886fd70b774d7f2fcad86674d8ea5324d0cc7d59ba3c97495e43686c7f"
 
-  # depends_on "hadoop"
+  depends_on "hadoop240"
   depends_on :java
 
   def install
